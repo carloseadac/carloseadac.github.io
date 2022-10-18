@@ -43,12 +43,12 @@
 :root {
   --white-color:                  #ffffff;
   --dark-color:                   #000000;
-  --primary-color:                #d4af37;
-  --secondary-color:              #d4af37;
+  --primary-color:                #DAA520;
+  --secondary-color:              #DAA520;
   --section-bg-color:             #000000;
   --site-footer-bg-color:         #000000;
-  --custom-btn-bg-color:          #ecdb43;
-  --custom-btn-bg-hover-color:    #e0cf36;
+  --custom-btn-bg-color:          #DAA520;
+  --custom-btn-bg-hover-color:    #af851a;
   --dark-color:                   #000000;
   --p-color:                      #7c7c7c;
   --border-color:                 #e9eaeb;
