@@ -1,10 +1,3 @@
-/*
-
-TemplateMo 581 Kind Heart Charity
-
-https://templatemo.com/tm-581-kind-heart-charity
-
-*/
 
 
 
@@ -51,13 +44,13 @@ https://templatemo.com/tm-581-kind-heart-charity
   --white-color:                  #ffffff;
   --dark-color:                   #000000;
   --primary-color:                #d4af37;
-  --secondary-color:              #5a6f80;
+  --secondary-color:              #d4af37;
   --section-bg-color:             #000000;
-  --site-footer-bg-color:         #44525d;
-  --custom-btn-bg-color:          #597081;
-  --custom-btn-bg-hover-color:    #5bc1ac;
+  --site-footer-bg-color:         #000000;
+  --custom-btn-bg-color:          #ecdb43;
+  --custom-btn-bg-hover-color:    #e0cf36;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #7c7c7c;
   --border-color:                 #e9eaeb;
 
   --body-font-family:             'Metropolis', sans-serif;
@@ -203,7 +196,7 @@ strong {
   CUSTOM BLOCK               
 -----------------------------------------*/
 .custom-block-wrap {
-  background: var(--white-color);
+  background: var(--dark-color);
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
@@ -271,7 +264,7 @@ strong {
   CUSTOM TEXT BOX               
 -----------------------------------------*/
 .custom-text-box {
-  background: var(--white-color);
+  background: var(--dark-color);
   border-radius: var(--border-radius-medium);
   margin-bottom: 24px;
   padding: 40px;
@@ -352,7 +345,7 @@ strong {
   NAVIGATION              
 -----------------------------------------*/
 .navbar {
-  background: var(--white-color);
+  background: var(--dark-color);
   z-index: 9;
   padding-top: 0;
   padding-bottom: 0;
@@ -405,7 +398,7 @@ strong {
 }
 
 .dropdown-menu {
-  background: var(--white-color);
+  background: var(--dark-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
   border: 0;
   max-width: 50px;
