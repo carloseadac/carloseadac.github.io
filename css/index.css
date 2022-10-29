@@ -43,12 +43,12 @@
 :root {
   --white-color:                  #ffffff;
   --dark-color:                   #000000;
-  --primary-color:                #907239;
-  --secondary-color:              #907239;
-  --section-bg-color:             #000000;
+  --primary-color:                #a12727;
+  --secondary-color:              #1f573d;
+  --section-bg-color:             #b9b9b9;
   --site-footer-bg-color:         #000000;
-  --custom-btn-bg-color:          #907239;
-  --custom-btn-bg-hover-color:    #6d562c;
+  --custom-btn-bg-color:          #903939;
+  --custom-btn-bg-hover-color:    #6d2c2c;
   --dark-color:                   #000000;
   --p-color:                      #7c7c7c;
   --border-color:                 #e9eaeb;
@@ -191,6 +191,18 @@ strong {
 .section-overlay + .container {
   position: relative;
 }
+.section-padding button{
+  margin-top: 30px;
+  background: #1f573d;
+  border: none;
+  padding: 1%;
+
+}
+.section-padding button:hover{
+
+  background: #0c2318;
+}
+
 
 
 /*---------------------------------------
@@ -202,6 +214,7 @@ strong {
   position: relative;
   overflow: hidden;
   transition: all 0.5s;
+  margin-top: 24px;
 }
 
 .custom-block-wrap:hover {
