@@ -45,12 +45,12 @@
   --dark-color:                   #000000;
   --primary-color:                #a12727;
   --secondary-color:              #1f573d;
-  --section-bg-color:             #f2f2f2;
+  --section-bg-color:             #e9e9e9;
   --site-footer-bg-color:         #000000;
   --custom-btn-bg-color:          #903939;
   --custom-btn-bg-hover-color:    #6d2c2c;
   --dark-color:                   #000000;
-  --p-color:                      #9e9e9e;
+  --p-color:                      #868686;
   --border-color:                 #cecece;
 
   --body-font-family:             'Metropolis', sans-serif;
@@ -209,12 +209,15 @@ strong {
   CUSTOM BLOCK               
 -----------------------------------------*/
 .custom-block-wrap {
-  background: var(--dark-color);
+  background: var(--section-bg-color);
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
   transition: all 0.5s;
   margin-top: 24px;
+}
+.custom-block-wrap p{
+  color: var(--dark-color);
 }
 
 .custom-block-wrap:hover {
